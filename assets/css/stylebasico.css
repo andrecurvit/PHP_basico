@@ -1,0 +1,145 @@
+html {
+	/*background-color: black;*/
+	scroll-behavior: smooth;
+	font-family: sans-serif;
+}
+
+body, ul {
+	margin: 0px;
+	padding: 0px;
+	background-color: ;
+}
+
+/*********************************Logo***********************************/
+
+.logo {
+	position: relative;
+	width: 310px;
+	height: 100px;
+	background-color: transparent;
+	left: 40%;
+}
+
+/*********************************Titulo*************************************/
+
+.tituloh {
+	text-align: center;
+}
+
+/*********************************Navegação**********************************/
+.navegacao {
+	background-color: transparent;
+	text-align: center;
+}
+.desc1{
+	text-decoration: none;
+	font-size: 25px;
+}
+/*********************************Botões*************************************/
+
+.calc {
+	position: relative;
+	background-color: #078;
+	/*left: 36.5%;*/
+	font-size: 25px;
+	align-items: center;
+	width: 200px; height: 100px;
+}
+.calc:hover{
+	background-color: #076;
+}
+
+/********************************FOOTER**********************************/
+
+footer{
+	position: static;
+	background-color: lightgrey;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+
+
+/***************************************TABUADA****************************************/
+.formulario {
+	position: relative;
+	text-align: center;
+	align-items: center;
+	background-color: black;
+	color: white;
+	left: 25%;
+	width: 700px;
+	height: 150px;
+}
+
+/********************************* Display smartphone **********************************/
+
+@media (max-width: 600px){
+	.html {
+		width: 100%;
+	}
+	.body {
+		width: 100%;
+	}
+	.navbar-nav{
+		visibility: visible;
+	}
+
+	.logo {
+		position: relative;
+		width: 310px;
+		height: 100px;
+		background-color: transparent;
+		left: 10%;
+
+	}
+	.desc1{
+		text-align: center;
+		text-decoration: underline;
+		font-size: 12px;
+	}
+	h1{
+		font-size: 16px;
+	}
+
+	footer{
+		position: absolute;
+		background-color: lightgrey;
+		bottom: auto;
+		width: 100%;
+		text-align: center;
+	}
+	/***************************************TABUADA****************************************/
+	.formulario {
+		position: relative;
+		text-align: center;
+		align-items: center;
+		background-color: black;
+		color: white;
+		/*left: 50%;*/
+		width: 700px;
+		height: 150px;
+	}
+	legend{
+		text-align: center;
+		font-size: 12px;
+	}
+
+}
+
+/********************************PORCENTAGEM****************************************/
+
+.porcent{
+	background-color: lightgrey;
+}
+
+.corpoporcent {
+	text-align: center;
+}
+
+footer.porcent {
+	/*position: absolute;*/
+	background-color: #799;
+	bottom: 0;
+}

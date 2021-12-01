@@ -1,0 +1,85 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: auto;
+    height: auto;
+}
+
+body {
+    background-color: #042527;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+}
+
+.conteudo {
+    position: relative;
+    /* display: flex; */
+    left: 20%;
+    width: 550px;
+    background-color: #7bf0dc;
+    text-align: center;
+    /* align-items: center; */
+}
+
+/* ERROR MENSAGE */
+.erro {
+    color:red;
+    background-color: hotpink;
+}
+
+.acerto {
+    color: green;
+    background-color: greenyellow;
+}
+.titulo {
+    position: relative;
+    text-align: center;
+}
+
+/********************* CADASTRO DE PERGUNTAS **********************/
+
+.cadconteudo {
+    position: relative;
+    left: 20%;
+    width: 550px;
+    height: 300px;
+    background-color: #7bf0dc;
+    text-align: center;
+}
+
+/* ERROR MENSAGE */
+.erro {
+    color:red;
+    background-color: hotpink;
+}
+
+.acerto {
+    color: green;
+    background-color: greenyellow;
+}
+.cadtitulo {
+    position: relative;
+    text-align: center;
+}
+
+.cadtextperg {
+    position: relative;
+    width: 200px;
+}
+
+.cadPergunta .cadResposta {
+    align-items: left;
+}
+.cadPergunta {
+    position: relative;
+    width: 300px;
+
+}
+
+.cadResposta {
+    position: relative;
+    width: 300px;
+}
+
+form{
+    background-color: #7bf0dc;
+}
