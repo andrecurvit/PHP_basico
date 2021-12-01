@@ -1,0 +1,68 @@
+/********************************************************************************/
+/************************************        ************************************/
+/************************************ RODAPÉ ************************************/
+/************************************        ************************************/
+/********************************************************************************/
+
+footer.rodape, div.rodape {
+    height: 75px;
+	width: 100%;
+    background-color: grey /*#58D3F7*/;
+}
+
+footer.rodape {
+	color: black; /* Cor das letras */
+	bottom: 100%;
+	width: 100%;
+}
+
+footer.rodape, div.rodape, ul.sociais, li.sociais, img.social, li.contato, div.ultdet {
+	position: relative;
+	/*background-color: greenyellow;*/
+}
+
+ul.sociais{
+    background-color: transparent;
+	margin: 20px 0px 50px;
+    padding: 50px 0px 0px;
+    text-align: center;
+	height: 80px;
+	top: -20px;	
+}
+
+li.sociais {
+	background-color: transparent;
+    margin: 15px 28px solid;
+    text-align: center;
+    display: inline-block;
+    list-style: none;
+    height: 50px; width: 50x;
+    top: 0px;
+}
+	
+img.social {
+	background-color: transparent;
+    height: 25px; width: 25px;
+    top: 8px;
+    border-radius: 0px 0px 0px 0px;
+}
+
+li.contato{
+	list-style: none;
+}
+
+div.ultdet {
+	font-style: normal;
+	text-align: center;
+	background-color: grey; /*greenyellow*/;
+	top: 0px;
+}
+
+p.ultdet {
+	background-color: gray;
+}
+
+footer nav .sociais li a:hover img{
+    transform: scale(1.2) translateY(-10px);
+    transition: .2s;
+}

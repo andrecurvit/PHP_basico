@@ -1,0 +1,178 @@
+.html {
+	background-color: black;
+	scroll-behavior: smooth;
+	font-family: sans-serif;
+}
+
+body, ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.basico {
+	background: black !important;
+}
+/*====================================================================*/
+/*============================== NAV  ================================*/
+/*============================== MENU ================================*/
+/*====================================================================*/
+.navbar-toggler{
+	display: block;
+	transition: .2s;
+	transition-duration: .2s;
+}
+
+.texto-nome {
+	display: block;
+	color: white !important;
+}
+
+.texto-menu {
+	color: white !important;
+}
+
+.texto-menu:hover{
+	transform: scale(1.2) translateY(-5px);
+    transition: .3s;
+}
+
+/*====================================================================*/
+/*==============================      ================================*/
+/*============================== HOME ================================*/
+/*==============================      ================================*/
+/*====================================================================*/
+
+.cor-home {
+	color: black;
+	font-family: sans-serif;
+	background: #58D3F7;
+}
+
+.foto-perfil {
+	height: 100%;
+	width: auto;
+	max-width: 100%;
+	border-radius: 50%;
+}
+
+/*====================================================================*/
+/*============================          ==============================*/
+/*============================ Projetos ==============================*/
+/*============================          ==============================*/
+/*====================================================================*/
+
+.fontes {
+	font-family: sans-serif;
+}
+.cor-projetos {
+	color: black !important;
+	font-family: sans-serif;
+	background: cadetblue;
+}
+
+.card-img-top {
+	display: block;
+	height: 225px;
+	width: 100%;
+}
+
+.titulo-preto {
+	font-weight: 700;
+	font-family: 'Helvetica';
+	position: relative;
+	top: -40px;
+}
+
+.box-shadow {
+	position: relative;
+	height: 504px;
+}
+
+.languagescode {
+	position: absolute;
+	bottom: 10px;
+}
+
+/*=====================================================================*/
+/*============================           ==============================*/
+/*============================ Sobre mim ==============================*/
+/*============================           ==============================*/
+/*=====================================================================*/
+
+.cor-about-me {
+	color: black !important;
+	font-family: fantasy;
+	background: #58D3F7;
+}
+
+.texto-black {
+	font-family: sans-serif;
+}
+
+/*=====================================================================*/
+/*============================              ===========================*/
+/*============================ Experiências ===========================*/
+/*============================              ===========================*/
+/*=====================================================================*/
+
+
+.cor-experiencia {
+	background: cadetblue;
+}
+
+.detalhes {
+	visibility: visible;
+}
+
+#mais {
+	display: none;
+}
+#mais1 {
+	display: none;
+}
+#pontos ,#pontos1 {
+	visibility: hidden;
+}
+
+.funcoesClube {
+	border-radius: 50% 50% 50% 50%;
+	background-color: gray;
+	border-width: 5px;
+	height: 100px;
+	width: 100px;
+}
+
+.funcoesElgin {
+	border-radius: 50% 50% 50% 50%;
+	background-color: blue;
+	border-width: 5px;
+	height: 100px;
+	width: 100px;
+}
+
+.funcoes:hover {
+	background-color: black;
+	color: white;
+}
+
+/* Logo das empresas */
+.clubmed {
+	border-radius: 50% 50%;
+	width: 140px;
+	height: 140px;
+}
+
+.elgin {
+	border-radius: 50% 50%;
+	width: 140px;
+	height: 140px;
+}
+
+@media (max-width: 600px) {
+	.titulo-preto{
+		top: -10px;
+	}
+	.clubmed{
+		top: -100px;
+	}
+}
