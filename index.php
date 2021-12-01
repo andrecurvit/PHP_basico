@@ -17,9 +17,9 @@
 </head>
 <body>
 
-  <!-- ********************CABEÇALHO************************ -->
-  <!-- ********************CABEÇALHO************************ -->
-  <!-- ********************CABEÇALHO************************ -->
+  <!-- ***************************************************** -->
+  <!-- ********************HEADER*************************** -->
+  <!-- ***************************************************** -->
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand texto-nome" href="#">Andre Almeida</a>
@@ -73,6 +73,11 @@
       </a>
     </div>
   </section>
+
+  <!-- ****************************************************************** -->
+  <!-- *************************PROJECTS********************************* -->
+  <!-- ****************************************************************** -->
+
   <section class="basico">
   <div class="album py-5 cor-projetos" id="projetos">
     <div class="container">
@@ -99,7 +104,7 @@
                 <!-- Buttons "Ver projeto" & "Código" -->
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group"><!-- Grupo de botões -->
-                    <a href="http://netflix.andrealmeida.epizy.com" target="_blank">
+                    <a href="#" target="_blank">
                       <button type="button" class="btn btn-sm btn-outline-success">Ver projeto</button>
                     </a>
                     <a href="https://github.com/andrecurvit/MeuPortifolio">
@@ -112,7 +117,7 @@
           </div> <!-- card mb-4 box-shadow -->
         </div> <!-- col-md-5 -->
 
-        <!-- SISTEMA SOLAR -->
+        <!-- SOLAR SYSTEM -->
 
         <div class="col-md-6"> <!-- Forma de organizar a pagina (colunas) --> 
           <div class="card mb-5 box-shadow">
@@ -129,7 +134,7 @@
                 </ul>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <a href="http://sistemasolar.andrealmeida.epizy.com" target="_blank">
+                    <a href="#" target="_blank">
                       <button type="button" class="btn btn-sm btn-outline-success">Ver projeto</button>
                     </a>
                     <a href="https://github.com/andrecurvit/MeuPortifolio">
@@ -158,7 +163,7 @@
                 </ul>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <a href="http://ifood.andrealmeida.epizy.com/">
+                    <a href="#">
                       <button type="button" class="btn btn-sm btn-outline-success">Ver projeto</button>
                     </a>
                     <a href="https://github.com/andrecurvit/MeuPortifolio">
@@ -185,7 +190,7 @@
                 </ul>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <a href="../PHP_Basico"> <!-- http://phpcommysql.andrealmeida.epizy.com/ -->
+                    <a href="../PHP_Basico">
                       <button type="button" class="btn btn-sm btn-outline-success">Ver projeto</button>
                     </a>
                     <a href="https://github.com/andrecurvit/MeuPortifolio">
@@ -201,8 +206,10 @@
     </div> <!-- container -->
   </div>
   </section>
+  <!-- ****************************************************************** -->
+  <!-- *************************ABOUT********************************* -->
+  <!-- ****************************************************************** -->
 
-  <!-- Sobre mim -->
   <section class="jumbotron text-center cor-about-me" id="sobre-mim">
     <div class="container">
       <h2 class="jumbotron-heading titulo-preto">
