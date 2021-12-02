@@ -104,11 +104,11 @@
                 <!-- Buttons "Ver projeto" & "Código" -->
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group"><!-- Grupo de botões -->
-                    <a href="#" target="_blank">
-                      <button type="button" class="btn btn-sm btn-outline-success">Ver projeto</button>
+                    <a href="http://netflix.andrealmeida.epizy.com/" target="_blank">
+                      <button type="button" class="btn btn-sm btn-outline-success">View code</button>
                     </a>
-                    <a href="https://github.com/andrecurvit/MeuPortifolio">
-                      <button type="button" class="btn btn-sm btn-outline-primary">Código</button>
+                    <a href="https://github.com/andrecurvit/">
+                      <button type="button" class="btn btn-sm btn-outline-primary">Code</button>
                     </a>
                   </div> <!-- Grupo de botões -->
                 </div> <!-- Buttons "Ver projeto" & "Código" -->
@@ -134,11 +134,11 @@
                 </ul>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <a href="#" target="_blank">
-                      <button type="button" class="btn btn-sm btn-outline-success">Ver projeto</button>
+                    <a href="http://sistemasolar.andrealmeida.epizy.com/" target="_blank">
+                      <button type="button" class="btn btn-sm btn-outline-success">View code</button>
                     </a>
-                    <a href="https://github.com/andrecurvit/MeuPortifolio">
-                      <button type="button" class="btn btn-sm btn-outline-primary">Código</button>
+                    <a href="https://github.com/andrecurvit/">
+                      <button type="button" class="btn btn-sm btn-outline-primary">Code</button>
                     </a>
                   </div>
                 </div>
@@ -153,8 +153,7 @@
           <div class="card mb-5 box-shadow">
             <img class="card-img-top" src="https://logopng.com.br/logos/ifood-43.svg" alt="Logo iFood" data-holder-rendered="true">
             <div class="card-body">
-              <p class="card-text texto-preto">Esse projeto foi desenvolvido em um intensivão de Front-end sobre a mentoria da escola 
-              Kenzie Academy juntamento com parceria de iFood.</p>
+              <p class="card-text texto-preto">Esse projeto foi desenvolvido em um intensivão de Front-end sobre a mentoria da escola <a href="https://kenzie.com.br/"> Kenzie Academy</a> juntamento com parceria de iFood.</p>
               <div class="languagescode">
                 <ul class="texto-preto">
                   <li>HTML</li>
@@ -163,11 +162,11 @@
                 </ul>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <a href="#">
-                      <button type="button" class="btn btn-sm btn-outline-success">Ver projeto</button>
+                    <a href="http://ifood.andrealmeida.epizy.com/" target="_blank">
+                      <button type="button" class="btn btn-sm btn-outline-success">View code</button>
                     </a>
                     <a href="https://github.com/andrecurvit/MeuPortifolio">
-                      <button type="button" class="btn btn-sm btn-outline-primary">Código</button>
+                      <button type="button" class="btn btn-sm btn-outline-primary">Code</button>
                     </a>
                   </div>
                 </div>
@@ -178,9 +177,9 @@
           <!-- PHP básico com MySQL -->
         <div class="col-md-6"> <!-- Forma de organizar a pagina (colunas) --> 
           <div class="card mb-5 box-shadow">
-            <img class="card-img-top" src="https://creativealive.com/wp-content/uploads/2013/10/PHP-MySQL.jpg" alt="Logo PHP e MySQL" data-holder-rendered="true">
+            <img class="card-img-top" src="https://i1.wp.com/enemdescomplicado.com.br/wp-content/uploads/2015/05/matematica.png?fit=600%2C372" alt="Logo PHP e MySQL" data-holder-rendered="true"><!--https://creativealive.com/wp-content/uploads/2013/10/PHP-MySQL.jpg"-->
             <div class="card-body">
-              <p class="card-text texto-preto">Projeto realizado através do Curso de PHP com MySQL da plataforma UDEMY, ministrado por Danilo Filitto.</p>
+              <p class="card-text texto-preto">Projeto realizado através do Curso de PHP com MySQL da plataforma UDEMY, ministrado por <a href="https://dfilitto.com.br/">Danilo Filitto.</a></p>
               <div class="languagescode">
                 <ul class="texto-preto">
                   <li>HTML</li>
@@ -191,10 +190,37 @@
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <a href="../PHP_Basico">
-                      <button type="button" class="btn btn-sm btn-outline-success">Ver projeto</button>
+                      <button type="button" class="btn btn-sm btn-outline-success">View Code</button>
                     </a>
                     <a href="https://github.com/andrecurvit/MeuPortifolio">
-                      <button type="button" class="btn btn-sm btn-outline-primary">Código</button>
+                      <button type="button" class="btn btn-sm btn-outline-primary">Code</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- card mb-4 box-shadow -->
+        </div>
+        <!-- QUIZZ -->
+        <div class="col-md-6"> <!-- Forma de organizar a pagina (colunas) --> 
+          <div class="card mb-5 box-shadow">
+            <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSxypzU1A5IT7euy6W144eUPH4SQvh80LFZg&usqp=CAU" alt="Logo PHP e MySQL" data-holder-rendered="true">
+            <div class="card-body">
+              <p class="card-text texto-preto">Game de Perguntas e Respostas. Criado por cima do curso da UDEMY, ministrado por <a href="https://dfilitto.com.br/">Danilo Filitto.</a></p>
+              <div class="languagescode">
+                <ul class="texto-preto">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>PHP</li>
+                  <li>MySQL</li>
+                </ul>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="../Quizz">
+                      <button type="button" class="btn btn-sm btn-outline-success">View Code</button>
+                    </a>
+                    <a href="https://github.com/andrecurvit/MeuPortifolio">
+                      <button type="button" class="btn btn-sm btn-outline-primary">Code</button>
                     </a>
                   </div>
                 </div>
